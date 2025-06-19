@@ -1,24 +1,35 @@
 .theme-dark {
-  /* ...regras do tema dark extraídas do globals.css... */
+
+/* 
+||- APP THEME 
+*/
+
+  /* Background */
   --app-color-background: var(--color-black-900);
+  
   /* Header */
   --app-color-header-background: var(--color-black-900);
   --app-color-header-text: var(--color-white);
   --app-color-header-highlight: var(--color-black-highlight);
+  
   /* Footer */
   --app-color-footer-background: var(--color-black-neutral);
   --app-color-footer-text: var(--color-black-900);
   --app-color-footer-highlight: var(--color-black-900);
+  
   /* Text */
   --app-color-text: var(--color-white);
+  
   /* Elements */
   --app-color-icon: var(--color-white);
   --app-color-tag: var(--color-white);
+  
   /* Banner */
   --app-color-banner-background: var(--color-zinc-700);
   --app-color-banner-text: var(--color-white);
   --app-color-banner-button: var(--color-zinc-800);
   --app-color-banner-button-hover: var(--color-zinc-900);
+  
   /* Botões */
   --app-color-button-background: var(--color-zinc-700);
   --app-color-button-border: var(--color-zinc-700);
@@ -29,14 +40,17 @@
   --app-color-button-outline-text: var(--color-white);
   --app-color-button-fill-background: var(--color-white);
   --app-color-button-fill-text: var(--color-zinc-900);
+  
   /* Buscar */
   --app-color-search-background: var(--color-zinc-700);
   --app-color-search-placeholder: var(--color-zinc-500);
   --app-color-search-text: var(--color-white);
+  
   /* Grupo */
   --app-color-group-background: var(--color-zinc-800);
   --app-color-group-hover: var(--color-zinc-700);
   --app-color-group-text: var(--color-white);
+  
   /* Inputs */
   --app-color-input-background: var(--color-zinc-700);
   --app-color-input-border: var(--color-zinc-900);
@@ -44,11 +58,13 @@
   --app-color-input-text: var(--color-white);
   --app-color-input-icon: var(--color-zinc-500);
   --app-color-input-focus: var(--color-zinc-500);
+  
   /* Lista */
   --app-color-list-background: var(--color-zinc-900);
   --app-color-list-border: var(--color-zinc-700);
   --app-color-list-hover: var(--color-zinc-700);
   --app-color-list-text: var(--color-zinc-100);
+  
   /* Menu */
   --app-color-menu-background: var(--color-zinc-700);
   --app-color-menu-border: var(--color-zinc-100);
@@ -56,9 +72,89 @@
   --app-color-menu-text: var(--color-white);
   --app-color-menu-title: var(--color-zinc-600);
   --app-color-menu-breakline: var(--color-zinc-600);
+  
   /* Titulos */
   --app-color-title: var(--color-white);
   --app-color-subtitle: var(--color-gray-500);
   --app-color-highlight: var(--color-black-highlight);
   --app-color-highlight-text: var(--color-white);
+
+/* 
+||- READER THEME 
+*/
+  
+  /* Background */
+  --reader-color-background: var(--color-black-900);
+  
+  /* Header */
+  --reader-color-header-background: var(--color-black-900);
+  --reader-color-header-text: var(--color-white);
+  --reader-color-header-highlight: var(--color-black-highlight);
+  
+  /* Footer */
+  --reader-color-footer-background: var(--color-black-neutral);
+  --reader-color-footer-text: var(--color-black-900);
+  --reader-color-footer-highlight: var(--color-black-900);
+  
+  /* Text */
+  --reader-color-text: var(--color-white);
+  
+  /* Elements */
+  --reader-color-icon: var(--color-white);
+  --reader-color-tag: var(--color-white);
+  
+  /* Banner */
+  --reader-color-banner-background: var(--color-zinc-700);
+  --reader-color-banner-text: var(--color-white);
+  --reader-color-banner-button: var(--color-zinc-800);
+  --reader-color-banner-button-hover: var(--color-zinc-900);
+  
+  /* Botões */
+  --reader-color-button-background: var(--color-zinc-700);
+  --reader-color-button-border: var(--color-zinc-700);
+  --reader-color-button-hover: var(--color-zinc-800);
+  --reader-color-button-text: var(--color-white);
+  --reader-color-button-icon: var(--color-white);
+  --reader-color-button-outline-border: var(--color-white);
+  --reader-color-button-outline-text: var(--color-white);
+  --reader-color-button-fill-background: var(--color-white);
+  --reader-color-button-fill-text: var(--color-zinc-900);
+  
+  /* Buscar */
+  --reader-color-search-background: var(--color-zinc-700);
+  --reader-color-search-placeholder: var(--color-zinc-500);
+  --reader-color-search-text: var(--color-white);
+  
+  /* Grupo */
+  --reader-color-group-background: var(--color-zinc-800);
+  --reader-color-group-hover: var(--color-zinc-700);
+  --reader-color-group-text: var(--color-white);
+  
+  /* Inputs */
+  --reader-color-input-background: var(--color-zinc-700);
+  --reader-color-input-border: var(--color-zinc-900);
+  --reader-color-input-placeholder: var(--color-zinc-500);
+  --reader-color-input-text: var(--color-white);
+  --reader-color-input-icon: var(--color-zinc-500);
+  --reader-color-input-focus: var(--color-zinc-500);
+  
+  /* Lista */
+  --reader-color-list-background: var(--color-zinc-900);
+  --reader-color-list-border: var(--color-zinc-700);
+  --reader-color-list-hover: var(--color-zinc-700);
+  --reader-color-list-text: var(--color-zinc-100);
+  
+  /* Menu */
+  --reader-color-menu-background: var(--color-zinc-700);
+  --reader-color-menu-border: var(--color-zinc-100);
+  --reader-color-menu-hover: var(--color-zinc-500);
+  --reader-color-menu-text: var(--color-white);
+  --reader-color-menu-title: var(--color-zinc-600);
+  --reader-color-menu-breakline: var(--color-zinc-600);
+  
+  /* Titulos */
+  --reader-color-title: var(--color-white);
+  --reader-color-subtitle: var(--color-gray-500);
+  --reader-color-highlight: var(--color-black-highlight);
+  --reader-color-highlight-text: var(--color-white);
 }
